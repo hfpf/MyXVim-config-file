@@ -1,0 +1,45 @@
+nnoremap <F2> ?#import "<Enter>
+nnoremap <F3> ?@property<Enter>
+set number
+"set relativenumber
+set ignorecase
+set smartcase
+"set clipboard=unnamed
+"nnoremap ,f :xccmd fold<cr>
+"nnoremap ,u :xccmd unfold<cr>
+"nnoremap ,a :xccmd foldAllMethods<cr>
+"nnoremap ,n :xccmd unfoldAllMethods<cr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"以下是备用的
+"设置相对行号
+"set relativenumber
+"set incsearch
+"inoremap <S-Left> <C-o>b
+"inoremap <S-Right> <C-o>w
+"inoremap <C-Left> <C-o>b
+"inoremap <C-Right> <C-o>w
+"inoremap <C-e> <C-o>$
+" But case-sensitive if expression contains a capital letter.
+
+" Default to global substitutions on lines
+"set gdefault
+
+" 引号是注释
+" Map <space>b to toggle a breakpoint at the current line
+"nmap <space>b :xccmd toggleBreakpointAtCurrentLine<CR>
+
+" Use <space>cm to toggle comments for the selection
+"nmap <space>cm :xccmd commentAndUncommentCurrentLines<CR>
