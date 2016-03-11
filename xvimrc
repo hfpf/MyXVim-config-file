@@ -1,10 +1,15 @@
-nnoremap <F2> ?#import "<Enter>
-nnoremap <F3> ?@property<Enter>
+nnoremap \1 ?#import<Enter>zz
+nnoremap \2 ?@property<Enter>zz
+nnoremap \r "_diwp
+:nnoremap \s :%s//c<Left><Left>
+:vnoremap \s :s//c<Left><Left>
+nnoremap j gj
+nnoremap k gk
 set number
 "set relativenumber
 set ignorecase
 set smartcase
-"set clipboard=unnamed
+set clipboard=unnamed
 "nnoremap ,f :xccmd fold<cr>
 "nnoremap ,u :xccmd unfold<cr>
 "nnoremap ,a :xccmd foldAllMethods<cr>
