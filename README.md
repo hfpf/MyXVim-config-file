@@ -11,4 +11,5 @@ My xvim configuration
 ### How to commit
 
     cp ~/.xvimrc ~/Documents/GitHub/MyXVim-config-file/xvimrc
+    cp ~/.vimrc ~/Documents/GitHub/MyXVim-config-file/vimrc
 
