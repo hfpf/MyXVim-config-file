@@ -1,7 +1,6 @@
 nnoremap \1 ?#import <Enter>zz
 nnoremap \2 ?@interface <Enter>zz
 nnoremap \3 ?@property<Enter>zz
-:iabbrev #pr #pragma mark - 
 nnoremap \r "_diwP
 :nnoremap \s :%s//c<Left><Left>
 :vnoremap \s :s//c<Left><Left>
