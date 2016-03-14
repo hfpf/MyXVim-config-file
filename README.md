@@ -7,6 +7,7 @@ My xvim configuration
 
     git clone https://github.com/ToBeEngineer/MyXVim-config-file.git ~/Documents/GitHub/MyXVim-config-file/xvimrc
     cp ~/Documents/GitHub/MyXVim-config-file/xvimrc ~/.xvimrc
+    cp ~/Documents/GitHub/MyXVim-config-file/vimrc ~/.vimrc
     
 ### How to commit
 
