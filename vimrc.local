@@ -1,0 +1,14 @@
+" Vim UI {
+
+    color molokai             " Load a colorscheme
+}
+
+" gui settings {
+
+    if has('macunix')
+        set guifont=andale\ mono\ regular:h15,menlo\ regular:h14,consolas\ regular:h15,courier\ new\ regular:h17
+    endif
+
+    set wrap
+
+" }
