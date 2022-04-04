@@ -1,4 +1,41 @@
 ;set hlsearch
 ;set ignorecase smartcase
-set clipboard=unnamed
+;set clipboard=unnamed
+
+""" Map leader to space ---------------------
+;let mapleader=" "
+
+""" Plugins  --------------------------------
+set easymotion
+set NERDTree
 set surround
+""" % to matched <tag>
+set matchit
+
+""" Mappings --------------------------------
+""" easymotion help video: https://play.tudou.com/v_show/id_XMzk2ODE0NzY5Mg==.html?spm=a2hbt.20746970.1_2.d_40&scm=20140719.manual.114515.video_XMzk2ODE0NzY5Mg==
+nmap <SPACE>s <Plug>(easymotion-s)
+nmap <SPACE>f <Plug>(easymotion-f)
+nmap <SPACE>F <Plug>(easymotion-F)
+nmap <SPACE>w <Plug>(easymotion-w)
+nmap <SPACE>W <Plug>(easymotion-W)
+nmap <SPACE>b <Plug>(easymotion-b)
+nmap <SPACE>B <Plug>(easymotion-B)
+nmap <SPACE>e <Plug>(easymotion-e)
+nmap <SPACE>E <Plug>(easymotion-E)
+nmap <SPACE>j <Plug>(easymotion-j)
+nmap <SPACE>k <Plug>(easymotion-k)
+nmap <SPACE>n <Plug>(easymotion-n)
+nmap <SPACE>N <Plug>(easymotion-N)
+""" IDEA
+nnoremap [m :action MethodUp<cr>
+nnoremap ]m :action MethodDown<cr>
+
+""" NERDTree
+;nnoremap <SPACE>n :NERDTreeFocus<CR>
+;nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+
+""" vim help video: https://play.tudou.com/v_show/id_XMjgwNjE4OTExNg==.html?spm=a2hbt.20746970.1_2.d_78&scm=20140719.manual.114515.video_XMjgwNjE4OTExNg==
